@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Open+Sans:wght@300;400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@100;200;300&family=Open+Sans:wght@300;400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+    --brand-col: #f0954f;
+}
+
+.icon {
+    color: var(--brand-col);
+}
+
+/* Fonts  */
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+} 
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+} 
+
+p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal; 
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 750px;
+    background-color: rgb(65, 65, 65);
+    background-image: url(/img/1563x800px\ Website\ Banner.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+header > h1, ul {
+    display: inline-block;
+} 
+
+header > h1 {
+    padding: 25px;
+}
+
+li {
+    margin: 0 30px;
+}
+
+li a {
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    color: rgba(255, 255, 255,0.8);
+} 
+
+a:hover {
+    color: #f0954f;
+    /* text-decoration: underline; */
+}
+
+ul li {
+    display: inline-block;
+}
+
+.right{
+    float: right;
+    padding: 35px 25px;
+    margin-right: 80px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    padding: 20px 0;
+    margin-left: 100px;
+}
+
+.promoBar {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    width: auto;
+    height: 20px;
+    background-color: #f0954f;
+    color: white;
+    font-weight: 200;
+}
+
+.intro > h1 {
+    /* font-family: "Dancing Script", 'ubuntu';  */
+    font-weight: 500;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 140px;
+    color: white;
+}
+
+.intro > p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+.contact a {
+    border: 10px white solid;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    margin-left: 5px;
+}
+
+.contact a:hover {
+    border: 10px white solid;
+}
+
+.contact >a:hover {
+    color: #f0954f;;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 850px;
+    background-color: rgb(236, 236, 236);
+}
+
+.about > h2 {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.about > p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.aboutbox {
+    width: 500px;
+    height: 600px;
+    margin: 5px;
+    margin: 0 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.profilephoto {
+    background-image: url(/img/500x600px\ WEBSITE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.abouttext {
+    margin: 50px 0;
+    padding: 40px 25px 0;
+} 
+
+.spacebelow {
+    padding-bottom: 25px;
+}
+
+.spacebelowtext {
+    padding-bottom: 40px;
+} 
+
+.text-right {
+    text-align: right;
+} 
+
+.reviews {
+    width: 100%;
+    height: 500px;
+}
+
+.reviews-image {
+    background-image: url(/img/1563x600px\ REVIEWS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reviews > h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.reviews > p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.reviewbox {
+    margin: 0 10px;
+    border: 1px rgba(255, 253, 253, 0.3) solid;
+    width: 250px;
+    height: 200px;
+    border-radius: 40px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    background-color:rgba(255, 253, 253, 0.1);
+}
+
+.reviewbox > h2 {
+    padding-bottom: 25px;
+}
+
+footer {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    color: rgb(98, 98, 98);
+    padding: 25px 0;
+}
